@@ -1,0 +1,57 @@
+body {
+	background-image: url('web1.png');
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.heading {
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	position: absolute;
+	font-size: 70px;
+	top: 375px;
+	left: 440px;
+	padding: 10px;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+  }
+  
+  .heading:hover {
+	color: transparent;
+	-webkit-text-stroke: 2px rgb(0, 86, 244);
+  }
+  a.home {
+	color: white;
+  }
+ 
+  #loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  #loading:after {
+	content: "";
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 10px solid #cccccc;
+	border-top-color: #333333;
+	animation: spin 1s infinite;
+  }
+  
+  @keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+  }
+  

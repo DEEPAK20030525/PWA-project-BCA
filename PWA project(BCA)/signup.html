@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="manifest" href="/manifest.json">
+   <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+    <div id="loading">
+    </div>
+    <div class="form">
+      <img src="avatar.png" class="avatar">
+     
+      <div class="email">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Write your email"
+        />
+      </div>
+      
+      <div class="pass">
+        <label for="password">Password</label>
+        <input type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        />
+      </div>
+
+      
+      <button id="submit-btn" onclick="signIn()">Log In</button>
+    </div>
+
+    <script src="login.js">
+    </script>
+  </body>
+</html>

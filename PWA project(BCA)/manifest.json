@@ -1,0 +1,52 @@
+{
+    "name": "Staff Management",
+    "short_name": "Staff Mgmt",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FFE9D2",
+    "theme_color": "#FFE1C4",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "web1-72.png",
+        "type": "image/png",
+        "sizes": "72x72",
+      "purpose": "maskable"
+      },
+      {
+        "src": "web1-96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "web1-128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "web1-144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "web1-152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "web1-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "web1-384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "web1-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
